@@ -2,7 +2,7 @@ package etcd
 
 import (
 	"fmt"
-	"github.com/coreos/etcd/store"
+	"github.com/brandscreen/etcd/store"
 	"testing"
 	"time"
 )

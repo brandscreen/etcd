@@ -3,7 +3,7 @@ package mod
 
 import (
 	"net/http"
-	"github.com/coreos/etcd/mod/dashboard"
+	"github.com/brandscreen/etcd/mod/dashboard"
 )
 
 var ServeMux *http.Handler

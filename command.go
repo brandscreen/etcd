@@ -24,9 +24,9 @@ import (
 	"path"
 	"time"
 
-	etcdErr "github.com/coreos/etcd/error"
-	"github.com/coreos/etcd/store"
-	"github.com/coreos/go-raft"
+	etcdErr "github.com/brandscreen/etcd/error"
+	"github.com/brandscreen/etcd/store"
+	"github.com/brandscreen/raft"
 )
 
 const commandPrefix = "etcd:"

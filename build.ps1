@@ -1,5 +1,5 @@
 
-$ETCD_PACKAGE="github.com/coreos/etcd"
+$ETCD_PACKAGE="github.com/brandscreen/etcd"
 $env:GOPATH=$pwd.Path
 $SRC_DIR="$env:GOPATH/src"
 $ETCD_DIR="$SRC_DIR/$ETCD_PACKAGE"

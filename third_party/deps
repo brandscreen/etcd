@@ -1,7 +1,7 @@
 packages="
-	github.com/coreos/go-raft
-	github.com/coreos/go-etcd
-	github.com/coreos/go-log/log
+	github.com/brandscreen/raft
+	github.com/brandscreen/go-etcd
+	github.com/brandscreen/go-log/log
 	github.com/coreos/go-systemd
 	bitbucket.org/kardianos/osext
 	code.google.com/p/go.net

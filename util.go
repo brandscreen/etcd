@@ -29,8 +29,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/coreos/etcd/web"
-	"github.com/coreos/go-log/log"
+	"github.com/brandscreen/etcd/web"
+	"github.com/brandscreen/go-log/log"
 )
 
 //--------------------------------------

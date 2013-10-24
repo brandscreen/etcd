@@ -26,8 +26,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/etcd/store"
-	"github.com/coreos/go-raft"
+	"github.com/brandscreen/etcd/store"
+	"github.com/brandscreen/raft"
 )
 
 //------------------------------------------------------------------------------

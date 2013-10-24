@@ -3,15 +3,15 @@
 golang client library for etcd
 
 This etcd client library is under heavy development. Check back soon for more
-docs. In the meantime, check out [etcd](https://github.com/coreos/etcd) for
+docs. In the meantime, check out [etcd](https://github.com/brandscreen/etcd) for
 details on the client protocol. 
 
-For usage see example below or look at godoc: [go-etcd/etcd](http://godoc.org/github.com/coreos/go-etcd/etcd)
+For usage see example below or look at godoc: [go-etcd/etcd](http://godoc.org/github.com/brandscreen/go-etcd/etcd)
 
 ## Install
 
 ```bash
-go get github.com/coreos/go-etcd/etcd
+go get github.com/brandscreen/go-etcd/etcd
 ```
 
 ## Examples
@@ -24,7 +24,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/coreos/go-etcd/etcd"
+	"github.com/brandscreen/go-etcd/etcd"
 )
 
 func main() {

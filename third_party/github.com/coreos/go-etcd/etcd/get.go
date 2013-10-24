@@ -2,7 +2,7 @@ package etcd
 
 import (
 	"encoding/json"
-	"github.com/coreos/etcd/store"
+	"github.com/brandscreen/etcd/store"
 	"io/ioutil"
 	"net/http"
 	"path"

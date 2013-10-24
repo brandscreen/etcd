@@ -1,7 +1,7 @@
 package etcd
 
 import (
-	"github.com/coreos/go-log/log"
+	"github.com/brandscreen/go-log/log"
 	"os"
 )
 

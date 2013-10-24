@@ -14,7 +14,7 @@ Etcd is written in Go and uses the [raft][raft] consensus algorithm to manage a 
 
 See [etcdctl][etcdctl] for a simple command line client. Or feel free to just use curl, as in the examples below.
 
-[raft]: https://github.com/coreos/go-raft
+[raft]: https://github.com/brandscreen/raft
 [etcdctl]: http://coreos.com/docs/etcdctl/
 
 ## Getting Started
@@ -23,14 +23,14 @@ See [etcdctl][etcdctl] for a simple command line client. Or feel free to just us
 
 The latest release is available as a binary at [Github][github-release].
 
-[github-release]: https://github.com/coreos/etcd/releases/
+[github-release]: https://github.com/brandscreen/etcd/releases/
 
 ### Building
 
 You can build etcd from source:
 
 ```sh
-git clone https://github.com/coreos/etcd
+git clone https://github.com/brandscreen/etcd
 cd etcd
 ./build
 ```
@@ -457,17 +457,17 @@ If you are using SSL for server to server communication, you must use it on all 
 
 ## Contributing
 
-See [CONTRIBUTING](https://github.com/coreos/etcd/blob/master/CONTRIBUTING.md) for details on submitting patches and contacting developers via IRC and mailing lists.
+See [CONTRIBUTING](https://github.com/brandscreen/etcd/blob/master/CONTRIBUTING.md) for details on submitting patches and contacting developers via IRC and mailing lists.
 
 ## Libraries and Tools
 
 **Tools**
 
-- [etcdctl](https://github.com/coreos/etcdctl) - A command line client for etcd
+- [etcdctl](https://github.com/brandscreen/etcdctl) - A command line client for etcd
 
 **Go libraries**
 
-- [go-etcd](https://github.com/coreos/go-etcd)
+- [go-etcd](https://github.com/brandscreen/go-etcd)
 
 **Java libraries**
 
@@ -574,4 +574,4 @@ During the v0 series of releases we may break the API as we fix bugs and get fee
 
 etcd is under the Apache 2.0 license. See the [LICENSE][license] file for details.
 
-[license]: https://github.com/coreos/etcd/blob/master/LICENSE
+[license]: https://github.com/brandscreen/etcd/blob/master/LICENSE

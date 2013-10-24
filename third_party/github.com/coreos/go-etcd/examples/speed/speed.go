@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/coreos/go-etcd/etcd"
+	"github.com/brandscreen/go-etcd/etcd"
 	"time"
 )
 

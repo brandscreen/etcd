@@ -7,7 +7,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/coreos/etcd/mod/dashboard/resources"
+	"github.com/brandscreen/etcd/mod/dashboard/resources"
 )
 
 func memoryFileServer(w http.ResponseWriter, req *http.Request) {

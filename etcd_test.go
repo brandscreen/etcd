@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/test"
-	"github.com/coreos/go-etcd/etcd"
+	"github.com/brandscreen/etcd/test"
+	"github.com/brandscreen/go-etcd/etcd"
 )
 
 // Create a single node and try to set value

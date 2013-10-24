@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ETCD_PACKAGE=github.com/coreos/etcd
+ETCD_PACKAGE=github.com/brandscreen/etcd
 export GOPATH="${PWD}"
 SRC_DIR="$GOPATH/src"
 ETCD_DIR="$SRC_DIR/$ETCD_PACKAGE"
